@@ -9,9 +9,10 @@ G = nx.Graph()
 G.add_edge(1,2)
 G.add_edge(1,1)
 G.add_edge(1,4)
+G.add_edge(1,5)
 G.add_edge(3,4)
 
 #Dibujamos el grafo
-nx.draw(G, pos=nx.circular_layout(G), node_color=['b','r','r','r'], edge_color='b', with_labels=True)
+nx.draw(G, pos=nx.circular_layout(G), node_color=['b','r','r','r','r'], edge_color='b', with_labels=True)
 #Mostramos el grafo en pantalla
 plt.show()
