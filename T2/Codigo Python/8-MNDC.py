@@ -16,6 +16,6 @@ G.add_edge(3,5)
 G.add_edge(4,1)
 
 #Dibujamos el grafo
-nx.draw(G, pos=nx.circular_layout(G), nodecolor='r', edge_color=['r','b','b','r','b','g','b','b'], with_labels=True)
+nx.draw(G, pos=nx.random_layout(G), nodecolor='r', edge_color=['r','b','b','r','b','g','b','b'], with_labels=True)
 #Mostramos el grafo en pantalla
 plt.show()
