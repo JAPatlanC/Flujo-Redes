@@ -6,6 +6,7 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage{datetime}
+\usepackage{csquotes}
 \newdate{date}{26}{02}{2019}
 
 \title{Tarea 2}
@@ -45,7 +46,7 @@
 
 \maketitle
 
-En esta tarea se analizarán distintos tipos de acomodo visual grafos generados a partir de la librería NetworkX \cite{NetworkX} de Python \cite{Python}. Se estudiará particularmente los grafos utilizados para la tarea 1, la librería Matplotlib \cite{Matplotlib} para generar el grafo en los distintos algoritmos estudiados y para guardar el grafo en el formato ``.eps". El código empleado se obtuvo consultando la documentación oficial de la librería NetworkX \cite{NetworkXD} y guías suplementarias \cite{SOQ1,SOQ2}. Las imágenes y el código se encuentran disponibles directamente en mi repositorio \cite{JAPC}. Las distintas formas de trazar los grafos son:
+En esta tarea se analizan distintos tipos de acomodo visual grafos generados a partir de la librería NetworkX \cite{NetworkX} de Python \cite{Python}. Se estudian particularmente los grafos utilizados para la tarea 1, la librería Matplotlib \cite{Matplotlib} para generar el grafo en los distintos algoritmos estudiados y para guardar el grafo en el formato ``.eps". El código empleado se obtuvo consultando la documentación oficial de la librería NetworkX \cite{NetworkXD} y guías suplementarias \cite{SOQ1,SOQ2}. Las imágenes y el código se encuentran disponibles directamente en mi repositorio \cite{JAPC}. Las distintas formas de trazar los grafos son:
 
 \lstinputlisting[language=Python,firstline=1]{algoritmos.py}
 
@@ -59,6 +60,8 @@ Este algoritmo cuenta con las siguientes propiedades \cite{six1999framework}:
 \end{description}
 
 \subsection{Grafo simple no dirigido acíclico}
+Una red de ciudades en un estado puede ser un ejemplo de un grafo simple no dirigido acíclico, ya que podemos representar cada ciudad como un nodo del grafo, y tomar en cuenta que cada arista representan las carreteras que conectan cada ciudad, considerando que sería un grafo no dirigido dado que una carretera puede ir de ida y vuelta entre ciudades, y es acíclico puesto que no se consideran carreteras que van de una ciudad a sí misma \cite{novo2004aplicaciones}. La figura \ref{fig:GSNDA} representa un ejemplo de este tipo de grafo.
+
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{1-GSNDA}
     \caption{Grafo simple no dirigido acíclico.}
@@ -66,6 +69,7 @@ Este algoritmo cuenta con las siguientes propiedades \cite{six1999framework}:
 \end{figure}
 
 \subsection{Grafo simple no dirigido cíclico}
+Una ruta de autobús puede ser representada por este tipo de grafos, en donde los autobuses pasan a través de las calles y avenidas (representadas con las aristas), y cada nodo del grafo se puede representar una parada donde se recogen personas. La figura \ref{fig:GSNDC} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{2-GSNDC}
     \caption{Grafo simple no dirigido cíclico.}
@@ -74,6 +78,7 @@ Este algoritmo cuenta con las siguientes propiedades \cite{six1999framework}:
 
 
 \subsection{Grafo simple dirigido cíclico}
+En algunos juegos se tienen distintos estados en los que el jugador se puede encontrar, y esto puede ser representado en un grafo dirigido cíclico, dado que cada estado se puede visualizar por medio de un nodo, y las aristas representarían las maneras en las que un estado puede cambiar a otro \cite{GSDA}. La figura \ref{fig:GSDC} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{5-GSDC}
     \caption{Grafo simple dirigido cíclico.}
@@ -81,6 +86,7 @@ Este algoritmo cuenta con las siguientes propiedades \cite{six1999framework}:
 \end{figure}
 
 \subsection{Multigrafo dirigido acíclico}
+Como en el grafo simple dirigido reflexivo, en una página web se pueden tener múltiples hipervínculos que te redirigen a una misma página web. La figura \ref{fig:MDR} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{10-MDA}
     \caption{Multigrafo dirigido acíclico (los nodos 1 y 4 tienen múltiples aristas).}
@@ -90,6 +96,7 @@ Este algoritmo cuenta con las siguientes propiedades \cite{six1999framework}:
 Realiza el posicionamiento de los nodos de manera aleatoria, teniendo únicamente de restricción la ubicación de los nodos para no acomodar nodos encima de otros. Dada esta única restricción, su complejidad es nula \cite{random}.
 
 \subsection{Multigrafo no dirigido cíclico}
+Considerando el ejemplo de la ruta de autobuses, podemos tener entre dos paradas (nodos) múltiples rutas para llegar a la parada siguiente. La figura \ref{fig:MNDC} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{8-MNDC}
     \caption{Multigrafo no dirigido cíclico (los nodos 1, 2 y 3 tienen múltiples aristas).}
@@ -107,6 +114,7 @@ El algoritmo \textit{spectral} utiliza eigenvectores de la matriz del grafo (tam
 
 
 \subsection{Multigrafo no dirigido acíclico}
+De manera similar al ejemplo de un grafo simple no dirigido acíclico, una red de ciudades puede ser representado por un multigrafo, el cual puede proporcionar más información que un grafo simple al añadir diversos caminos por el que se puede trasladar de un nodo a otro. La figura \ref{fig:MNDA} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{7-MNDA}
     \caption{Multigrafo no dirigido acíclico (Los nodos 1 y 2 tienen múltiples aristas)}
@@ -115,6 +123,7 @@ El algoritmo \textit{spectral} utiliza eigenvectores de la matriz del grafo (tam
 
 
 \subsection{Multigrafo dirigido cíclico}
+Tomando el ejemplo utilizado en los grafos simples dirigidos cíclicos, en los juegos es posible que haya diferentes maneras de pasar de un estado a otro, lo cual es representado por aristas múltiples entre los nodos. La figura \ref{fig:MDC} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{11-MDC}
     \caption{Multigrafo dirigido cíclico (los nodos 2 y 3 tienen múltiples aristas).}
@@ -123,6 +132,7 @@ El algoritmo \textit{spectral} utiliza eigenvectores de la matriz del grafo (tam
 
 
 \subsection{Multigrafo dirigido reflexivo}
+Como en el grafo simple dirigido reflexivo, en una página web se pueden tener múltiples hipervínculos que te redirigen a una misma página web. La figura \ref{fig:MDR} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{12-MDR}
     \caption{Multigrafo dirigido reflexivo (los nodos 3 y 4 tienen múltiples aristas, el nodo 1 tiene una arista reflexiva).}
@@ -134,6 +144,7 @@ El algoritmo \textit{spectral} utiliza eigenvectores de la matriz del grafo (tam
 Basado en la física, el algoritmo \textit{spring} trata de mantener que la suma de las fuerzas entre los nodos (los pesos de las aristas) sea de 0. Se basa esencialmente en la ley de Coulomb y en la métrica euclidiana para obtener estos valores, teniendo una complejidad computacional de $O(n^2)$ \cite{spring}.
 
 \subsection{Grafo simple no dirigido reflexivo}
+Podemos representar una red de sistemas informáticos por medio de un grafo reflexivo, donde cada computadora es representada por medio de un nodo, y la conexión hacia las demás computadoras son representadas por las aristas. La arista reflexiva representaría la conexión de una computadora consigo misma \cite{GSNDR}. La figura \ref{fig:GSNDR} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{3-GSNDC}
     \caption{Grafo simple no dirigido reflexivo (el nodo 1 tiene una arista reflexiva).}
@@ -141,6 +152,7 @@ Basado en la física, el algoritmo \textit{spring} trata de mantener que la suma
 \end{figure}
 
 \subsection{Grafo simple dirigido acíclico}
+En la Programación Orientada a Objetos es común realizar herencia entre clases, y esta puede ser representada por medio de un grafo dirigido acíclico, teniendo a cada nodo como una clase distinta, y señalando la herencia por medio de una arista dirigida a las clases hijas \cite{GSDA}. La figura \ref{fig:GSDA} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{4-GSDA}
     \caption{Grafo simple dirigido acíclico}
@@ -153,6 +165,7 @@ Similar al algoritmo circular, el algoritmo \textit{shell} realiza agrupaciones 
 
 
 \subsection{Multigrafo no dirigido reflexivo}
+En las redes sociales, se puede utilizar un multigrafo reflexivo para representar las menciones que se hacen entre usuarios por medio de publicaciones, donde cada nodo representa un usuario y cada publicación representa la arista con la que conecta el usuario que realizo la publicación con el que es mencionado. La figura \ref{fig:MNDR} representa un ejemplo de este tipo de grafo.
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{9-MNDR}
     \caption{Multigrafo no dirigido reflexivo (los nodos 1 y 2 tienen múltiples aristas, el nodo 1 tiene una arista reflexiva).}
