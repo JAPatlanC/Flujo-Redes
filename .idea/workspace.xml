@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/T4/Codigo Python/T4.py" line="140" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de3db18-51f0-4a4b-ba5b-e8666f7de4b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisiones/5621-2.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="3de3db18-51f0-4a4b-ba5b-e8666f7de4b7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/T4/Codigo Python/T4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2068">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="595">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -241,15 +238,16 @@
       <updated>1552954966238</updated>
       <workItem from="1552954968359" duration="26976000" />
       <workItem from="1553181093168" duration="136000" />
-      <workItem from="1554169416623" duration="19948000" />
+      <workItem from="1554169416623" duration="20448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47060000" />
+    <option name="totallyTimeSpent" value="47560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013928" side_tool="true" weight="0.12473348" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49860725" visible="true" weight="0.12473348" />
@@ -336,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/T4/Codigo Python/T4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2068">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        <state relative-caret-position="595">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
