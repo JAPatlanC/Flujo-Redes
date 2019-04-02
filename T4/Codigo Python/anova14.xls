@@ -1,0 +1,17 @@
+	Suma de cuadrados	Grados de libertad	F	PR(>F)
+C(generation)	53.37960955	2	266.0801532	6.06E-102
+C(algoritmo)	0.483723305	2	1.864158838	0.155326227
+C(orden)	101.4732139	3	459.664017	1.41E-221
+C(densidad)	227.3020553	11	5836.862099	0
+C(generation):C(algoritmo)	0.340556268	4	0.849833855	0.49355476
+C(generation):C(orden)	72.44923183	6	3410.761012	0
+C(algoritmo):C(orden)	0.500048587	6	1.135997576	0.338715638
+C(generation):C(densidad)	0.000590927	22	0.007587121	0.99244162
+C(algoritmo):C(densidad)	1.258984976	22	22.00629446	2.37E-77
+C(orden):C(densidad)	0.000908473	33	0.007775612	0.999058669
+C(generation):C(algoritmo):C(orden)	0.418380121	12	13.40722346	7.24E-27
+C(generation):C(algoritmo):C(densidad)	0.000302222	44	0.002641306	0.997362183
+C(generation):C(orden):C(densidad)	0.418380121	66	13.40722346	7.24E-27
+C(algoritmo):C(orden):C(densidad)	0.00019549	66	0.001139017	0.973080866
+C(generation):C(algoritmo):C(orden):C(densidad)	0.001201082	132	0.003498981	0.999714748
+Residual	4.587287056	1764		

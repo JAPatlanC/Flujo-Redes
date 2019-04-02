@@ -1,0 +1,9 @@
+	sum_sq	df	F	PR(>F)
+C(generation)		2.0		
+C(algorithm)		2.0		
+C(density)		11.0		
+C(generation):C(algorithm)		4.0		
+C(generation):C(density)	-7.568913338669812e-12	22.0	-1.3229890158520682e-10	1.0
+C(algorithm):C(density)	-1.6937534646836356e-08	22.0	-2.96055342302498e-07	1.0
+C(generation):C(algorithm):C(density)	0.00030222196805838213	44.0	0.0026413061307470516	0.9973621829936966
+Residual	4.5872582907598485	1764.0		
