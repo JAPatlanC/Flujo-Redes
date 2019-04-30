@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/T4/Codigo Python/T4.py" line="140" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de3db18-51f0-4a4b-ba5b-e8666f7de4b7" name="Default Changelist" comment="" />
+    <list default="true" id="3de3db18-51f0-4a4b-ba5b-e8666f7de4b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +20,24 @@
     <favorites_list name="Python Redes" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/T4/Codigo Python/T4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="49" column="53" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="53" />
+            <state relative-caret-position="722">
+              <caret line="159" column="43" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/T5/Codigo Python/T5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="19" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -60,6 +74,9 @@
       <find>(1,</find>
       <find>tree</find>
       <find>OrRd</find>
+      <find>datafr</find>
+      <find>anova</find>
+      <find>ols</find>
     </findStrings>
     <replaceStrings>
       <replace>max_clique</replace>
@@ -84,14 +101,14 @@
         <option value="$PROJECT_DIR$/T3/Codigo Python/prueba.py" />
         <option value="$PROJECT_DIR$/T3/Codigo Python/T3.py" />
         <option value="$PROJECT_DIR$/T4/Codigo Python/T4.py" />
+        <option value="$PROJECT_DIR$/T5/Codigo Python/T5.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -101,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,23 +128,19 @@
             <path>
               <item name="Python Redes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python Redes" type="462c0819:PsiDirectoryNode" />
-              <item name="T3" type="462c0819:PsiDirectoryNode" />
+              <item name="T5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python Redes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python Redes" type="462c0819:PsiDirectoryNode" />
-              <item name="T4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python Redes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python Redes" type="462c0819:PsiDirectoryNode" />
-              <item name="T4" type="462c0819:PsiDirectoryNode" />
+              <item name="T5" type="462c0819:PsiDirectoryNode" />
               <item name="Codigo Python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.T4">
+  <component name="RunManager" selected="Python.T5">
     <configuration name="T3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python Redes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,6 +194,9 @@
       <module name="Python Redes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T4/Codigo Python" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -189,6 +204,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T4/Codigo Python/T4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="T5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python Redes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T5/Codigo Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T5/Codigo Python/T5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,6 +255,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.T5" />
         <item itemvalue="Python.T4" />
         <item itemvalue="Python.T3" />
       </list>
@@ -238,25 +273,27 @@
       <updated>1552954966238</updated>
       <workItem from="1552954968359" duration="26976000" />
       <workItem from="1553181093168" duration="136000" />
-      <workItem from="1554169416623" duration="20471000" />
+      <workItem from="1554169416623" duration="21084000" />
+      <workItem from="1556401485128" duration="223000" />
+      <workItem from="1556573316176" duration="17456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47583000" />
+    <option name="totallyTimeSpent" value="65875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013928" side_tool="true" weight="0.12473348" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49860725" visible="true" weight="0.12473348" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49860725" visible="true" weight="0.12686567" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="4" visible="true" weight="0.27843988" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="4" visible="true" weight="0.27843988" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -267,10 +304,10 @@
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info active="true" anchor="right" id="SciView" order="2" sideWeight="0.6771772" visible="true" weight="0.36460555" />
+      <window_info anchor="right" id="SciView" order="2" sideWeight="0.6741742" visible="true" weight="0.3379531" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.3228228" side_tool="true" visible="true" weight="0.36460555" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.32582584" side_tool="true" visible="true" weight="0.3379531" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,18 +333,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/T4/Tex/T3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T4/Codigo Python/T3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/T4/Tex/T3.py" />
+    <entry file="file://$PROJECT_DIR$/T4/Codigo Python/T3.py" />
     <entry file="file://$PROJECT_DIR$/../Python Metaheuristicas/T5/T5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1071">
@@ -334,8 +361,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/T4/Codigo Python/T4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="49" column="53" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="53" />
+        <state relative-caret-position="722">
+          <caret line="159" column="43" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T5/Codigo Python/grafo-0.eps">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T5/Codigo Python/T5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="19" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
