@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/T4/Codigo Python/T4.py" line="140" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de3db18-51f0-4a4b-ba5b-e8666f7de4b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3de3db18-51f0-4a4b-ba5b-e8666f7de4b7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/T5/Codigo Python/T5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-994">
-              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="26">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -374,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/T5/Codigo Python/T5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-994">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="26">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
