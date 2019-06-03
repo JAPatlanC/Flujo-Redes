@@ -113,7 +113,9 @@ for logarithmOrder in range(7,11):
 print(totalTests.__sizeof__())
 
 data = pd.DataFrame.from_records([s.to_dict() for s in totalTests])
-
+#data.boxplot(column=['time'],by=['nodes','generation','algorithm'])
+data.boxplot(column=['time'],by='density')
+print(data)
 #ANOVA
 formula1 = 'time ~ C(generation)'
 formula2 = 'time ~ C(algorithm)'
