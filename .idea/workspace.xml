@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/T4/Codigo Python/T4.py" line="142" />
+    <bookmark url="file://$PROJECT_DIR$/T4/Codigo Python/T4.py" line="141" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3de3db18-51f0-4a4b-ba5b-e8666f7de4b7" name="Default Changelist" comment="">
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/T5/Codigo Python/T5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+            <state relative-caret-position="-431">
+              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -110,11 +110,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="741" />
-    <option name="y" value="-15" />
-    <option name="width" value="975" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1492" />
+    <option name="width" value="1517" />
+    <option name="height" value="1958" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -124,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +145,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,6 +222,9 @@
       <module name="Python Redes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T5/Codigo Python" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -289,23 +291,24 @@
       <workItem from="1559517331002" duration="1683000" />
       <workItem from="1559521360898" duration="743000" />
       <workItem from="1559522414152" duration="526000" />
+      <workItem from="1559576290133" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79661000" />
+    <option name="totallyTimeSpent" value="79683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="1194" y="0" width="1213" height="1566" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013928" side_tool="true" weight="0.12473348" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49860725" visible="true" weight="0.13230036" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49860725" visible="true" weight="0.27186146" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="4" visible="true" weight="0.27725857" />
+      <window_info anchor="bottom" id="Python Console" order="4" visible="true" weight="0.27874565" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -316,7 +319,7 @@
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info active="true" anchor="right" id="SciView" order="2" sideWeight="0.6711712" visible="true" weight="0.41716328" />
+      <window_info active="true" anchor="right" id="SciView" order="2" sideWeight="0.6711712" visible="true" weight="0.11341991" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.32882884" side_tool="true" visible="true" weight="0.3379531" />
@@ -375,8 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/T5/Codigo Python/T5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        <state relative-caret-position="-431">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
